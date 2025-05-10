@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 24th Birthday Fadli!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            background-color: #000;
+            color: #f5f5f5;
+            background-image: url('https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 50px 20px;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .gallery img, .gallery video {
+            width: 100%;
+            border: 3px solid #f5f5f5;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 1em;
+            opacity: 0.8;
+        }
+        audio {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Happy 24th Birthday, Fadli Vienola Revikasyah! 🎸</h1>
+        <p>Today, 13 May 2025, we celebrate you and your incredible journey. May your 24th year be filled with love, success, and endless grunge anthems. Keep rocking, my amazing rock star. ❤️🎶</p>
+        <audio controls autoplay loop>
+            <source src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Nirvana/Smells_Like_Teen_Spirit/Nirvana_-_Smells_Like_Teen_Spirit.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200?text=Nirvana+Vibes+1" alt="Photo 1">
+            <img src="https://via.placeholder.com/300x200?text=Nirvana+Vibes+2" alt="Photo 2">
+            <img src="https://via.placeholder.com/300x200?text=Nirvana+Vibes+3" alt="Photo 3">
+            <img src="https://via.placeholder.com/300x200?text=Nirvana+Vibes+4" alt="Photo 4">
+            <img src="/mnt/data/WhatsApp%20Image%202025-05-10%20at%2010.25.59_4eb3155e.jpg" alt="Our Photo Together 1">
+            <img src="/mnt/data/ed2790a6-8e12-465e-890c-1a7dcab29e24.jpg" alt="Our Photo Together 2">
+            <video controls>
+                <source src="/mnt/data/WhatsApp%20Video%202025-05-10%20at%2010.25.56_1ac073b1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <footer>
+            <p>Made with ❤️ and grunge vibes by Sarah</p>
+        </footer>
+    </div>
+</body>
+</html>
